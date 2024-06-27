@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://dwkvb31yq3dmf"]
 
 [ext_resource type="Texture2D" uid="uid://c6tsylbfqjs6d" path="res://Textures/dirt_full_new.png" id="1_68fkm"]
-[ext_resource type="PackedScene" uid="uid://4hldptqpdpq0" path="res://Enemy/kobold.tscn" id="2_ngr8l"]
+[ext_resource type="PackedScene" uid="uid://4hldptqpdpq0" path="res://Textures/Enemy/kobold.tscn" id="2_ngr8l"]
 [ext_resource type="PackedScene" uid="uid://dx0emfvjbb3cb" path="res://Player/player.tscn" id="2_wfhp3"]
 
 [node name="World" type="Node2D"]

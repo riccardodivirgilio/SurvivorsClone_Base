@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://dx0emfvjbb3cb"]
 
 [ext_resource type="Script" path="res://Player/player.gd" id="1_62gyj"]
-[ext_resource type="Texture2D" uid="uid://bbu4vfqso6my2" path="res://Textures/Player/police.png" id="2_s53o7"]
+[ext_resource type="Texture2D" uid="uid://jalsukofy4sl" path="res://Textures/Player/player_sprite.png" id="2_ueo5c"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_u3jau"]
 radius = 9.0
@@ -13,9 +13,9 @@ script = ExtResource("1_62gyj")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(30, 4)
-texture = ExtResource("2_s53o7")
+texture = ExtResource("2_ueo5c")
 offset = Vector2(-30, 2.08165e-12)
-hframes = 9
+hframes = 2
 
 [node name="Camera2D" type="Camera2D" parent="."]
 

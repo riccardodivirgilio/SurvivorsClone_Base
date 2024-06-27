@@ -1,0 +1,48 @@
+[gd_scene load_steps=4 format=3 uid="uid://dwkvb31yq3dmf"]
+
+[ext_resource type="Texture2D" uid="uid://c6tsylbfqjs6d" path="res://Textures/dirt_full_new.png" id="1_68fkm"]
+[ext_resource type="PackedScene" uid="uid://4hldptqpdpq0" path="res://Enemy/kobold.tscn" id="2_ngr8l"]
+[ext_resource type="PackedScene" uid="uid://dx0emfvjbb3cb" path="res://Player/player.tscn" id="2_wfhp3"]
+
+[node name="World" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 2
+texture_repeat = 2
+position = Vector2(-55, -74)
+texture = ExtResource("1_68fkm")
+region_enabled = true
+region_rect = Rect2(-4000, -4000, 4000, 4000)
+
+[node name="kobold 1" parent="." instance=ExtResource("2_ngr8l")]
+position = Vector2(-46, 118)
+
+[node name="kobold 2" parent="." instance=ExtResource("2_ngr8l")]
+position = Vector2(-99, -368)
+
+[node name="kobold 3" parent="." instance=ExtResource("2_ngr8l")]
+position = Vector2(-381, -193)
+
+[node name="kobold 4" parent="." instance=ExtResource("2_ngr8l")]
+position = Vector2(256, 146)
+
+[node name="kobold 5" parent="." instance=ExtResource("2_ngr8l")]
+position = Vector2(283, 315)
+
+[node name="kobold 6" parent="." instance=ExtResource("2_ngr8l")]
+position = Vector2(296, -322)
+
+[node name="kobold 7" parent="." instance=ExtResource("2_ngr8l")]
+position = Vector2(-361, 55)
+
+[node name="kobold 8" parent="." instance=ExtResource("2_ngr8l")]
+position = Vector2(0, 339)
+
+[node name="kobold 9" parent="." instance=ExtResource("2_ngr8l")]
+position = Vector2(113, -219)
+
+[node name="kobold 10" parent="." instance=ExtResource("2_ngr8l")]
+position = Vector2(343, -91)
+
+[node name="Player" parent="." instance=ExtResource("2_wfhp3")]
+position = Vector2(131, 105)
